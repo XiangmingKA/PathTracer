@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Path_Tracer_2020"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kaxiangming/PathTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kaxiangming/PathTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kaxiangming/PathTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChainList">
+				<Option output="/Users/kaxiangming/PathTracer/cmake-build-debug/ChainList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kaxiangming/PathTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ChainList"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChainList/fast">
+				<Option output="/Users/kaxiangming/PathTracer/cmake-build-debug/ChainList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kaxiangming/PathTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ChainList/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kaxiangming/PathTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kaxiangming/PathTracer/boundingbox.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/boundingbox.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/cobject.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/cobject.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/cray.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/cray.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/csphere.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/csphere.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/ctriangle.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/ctriangle.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/display.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/global.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/gvector3.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/gvector3.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/lights.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/lights.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/material.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/material.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/myScene.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/myScene.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/perspectiveCamera.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/perspectiveCamera.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/raytracer.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/render.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/render.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/scene_io.cpp">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/scene_io.h">
+			<Option target="ChainList"/>
+		</Unit>
+		<Unit filename="/Users/kaxiangming/PathTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
